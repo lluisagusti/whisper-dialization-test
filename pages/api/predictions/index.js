@@ -24,7 +24,8 @@ export default async function handler(req, res) {
     }
   })
 
-  console.log('prediction @ BACKEND :>> ', prediction);
+  console.log('RUNNING POST :>> ', prediction?.input);
+  console.log('AI REQUEST ID :>> ', prediction?.id);
 
   // if (prediction?.error) {
   //   res.statusCode = 500;
