@@ -1,2 +1,2 @@
-# whisper-dialization-test
+# whisper-diarization-test
 OpenAi's Whisper experiment 🗣️〲
