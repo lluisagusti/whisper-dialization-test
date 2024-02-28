@@ -1,7 +1,7 @@
 "use-client"
 
 import { useEffect, useState } from "react"
-import SemanticUICard from "./components/semantic_layout"
+import SemanticUICard from "../components/semantic_layout"
 import { Button, Container, Header, Input, Segment } from "semantic-ui-react"
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
@@ -58,7 +58,7 @@ export default function Home() {
       prediction.status !== "succeeded" &&
       prediction.status !== "failed"
     ) {
-      await sleep(5000);
+      await sleep(7500);
       const response = await fetch("/api/predictions/" + prediction.id);
       prediction = await response.json();
       if (response.status !== 200) {
@@ -79,7 +79,7 @@ export default function Home() {
     <>
     
     <Header as='h1' content='AI Call Center Project' style={style.h1} textAlign='center' />
-    <Header as='h2' content='Speech to text -> text to AI --> farming data' style={style.h2} textAlign='center' />
+    <Header as='h2' content='speech-to-text --> text-to-LLM --> farming data 😁' style={style.h2} textAlign='center' />
     {/* <Header as='h3' textAlign='center' style={style.h3} content='Container' /> */}
 
     <Container>
