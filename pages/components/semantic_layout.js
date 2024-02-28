@@ -26,6 +26,9 @@ const SemanticUICard = ({ conversation }) => {
   // Stastiscs component
   // contar quantes vegades es
 
+
+  // per explicar les funcions fes un Grid!       ! ! ! !! ! ! ! !! 
+
   // funcions:
   // emmagatzematge sine die barat
   // search --> colorin 

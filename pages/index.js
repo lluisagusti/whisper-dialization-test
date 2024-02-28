@@ -1,8 +1,6 @@
 "use-client"
 
 import { useEffect, useState } from "react"
-import Head from "next/head"
-import Image from "next/image"
 import SemanticUICard from "./components/semantic_layout"
 import { Button, Container, Header, Input, Segment } from "semantic-ui-react"
 
@@ -80,10 +78,10 @@ export default function Home() {
   return (
     <>
     
-    <Header as='h1' content='Responsive UI Examples' style={style.h1} textAlign='center' />
-    <Header as='h2' content='Basic Responsive' style={style.h2} textAlign='center' />
+    <Header as='h1' content='AI Call Center Project' style={style.h1} textAlign='center' />
+    <Header as='h2' content='Speech to text -> text to AI --> farming data' style={style.h2} textAlign='center' />
+    {/* <Header as='h3' textAlign='center' style={style.h3} content='Container' /> */}
 
-    <Header as='h3' textAlign='center' style={style.h3} content='Container' />
     <Container>
       <Segment.Group>
         <Segment><Input placeholder='Prompt...' /></Segment>
