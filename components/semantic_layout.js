@@ -43,6 +43,65 @@ const SemanticUICard = ({ conversation }) => {
   // entrenar un LLM propi de tracte exquisit amb l'experienciad e totes les trucades de tots els agents
 
 
+  // IMPORTANT    IMPORTANT    ! ! ! !
+  // https://react.semantic-ui.com/collections/message/
+  // https://react.semantic-ui.com/collections/grid/
+  //
+  //
+  // Posar un message a un Grid i fer el map al grid amb 2/3/4 columnes
+  // les columnes es posen automatiques segons el numero de persones
+  //
+  // 
+  // OPCIÓ 2:
+  // Fer servir uns comments o un feed (tenen el reply que es pot fer servir per afegir notes amb més precisió i generar més data de qualitat)
+  // https://react.semantic-ui.com/views/feed/
+  // https://react.semantic-ui.com/views/comment/
+  //
+  //
+  // AFEGIR KPI's
+  // Fàcil. Son estadistiques!!!
+  // https://react.semantic-ui.com/views/statistic/
+  //
+  //
+  //  AFEGIR --> Flowing (busca excusa, fa wow!)
+  //
+  //  afegir header de tota la vida amb el logo a l'esquerra i un toggle a l'esquerra
+  //  la part de les avantatges finals apareix amb el toggle
+  //  
+  //
+  //  UPLOAD BUTTON -->cloud upload
+  //  (Labeled Icon) BUTTON AMB ICONO DE "+"" O UPLOAD <Button size='large'>Large</Button>
+  // 
+  // <Button icon labelPosition='left'>
+  //     <Icon name='pause' />
+  //     Pause
+  //   </Button>
+  //   <Button icon labelPosition='right'>
+  //     Next
+  //     <Icon name='cloud upload' />
+  //   </Button>
+  //
+  //
+  //
+  //
+  // LOADING --->
+  // https://react.semantic-ui.com/modules/progress/ 
+  //
+  //
+  // SEARCH
+  // https://react.semantic-ui.com/modules/search/#types-standard
+  //
+  //
+  // TABS?
+  // https://react.semantic-ui.com/modules/tab/
+  //
+  //
+  // MODAL -->
+  // https://react.semantic-ui.com/addons/confirm/
+  //
+
+
+
 
   const data = [
     {
